@@ -4,7 +4,7 @@ body{
 
 nav{
     align-items: center;
-    background-color: #e98251;
+    background-color: #e98251; 
     display: flex;
     height: 60px;
     justify-content: space-evenly;
@@ -30,7 +30,7 @@ section{
     justify-content: space-evenly;
 }
 
-div{
+section div{
     text-align: center;
     width: 40%;
 }
@@ -51,3 +51,18 @@ ul li:nth-child(even){
 /* p, h2{
     color: lawngreen;
 } */
+
+input::placeholder{
+    font-family: 'VT323', monospace;
+}
+input:focus{
+    background-color: #e98251;
+    width: 150px;
+    height: 20px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
