@@ -61,8 +61,23 @@ input:focus{
     height: 20px;
 }
 
-footer div{
+footer div:nth-child(1){
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+footer{
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column; 
+    height: 200px;   
+    justify-content: center;
 }
